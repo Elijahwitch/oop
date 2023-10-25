@@ -25,13 +25,8 @@ class Horse with Strong, QuickRunner {}
 class Kid with QuickRunner {}
 
 void main() {
-<<<<<<< HEAD
   var player = Player(
     team: Team.red,
   );
-=======
-  var player = Player(team: Team.red);
-
->>>>>>> 5019ece (fix: fix oop.dart)
   player.runQuick();
 }
